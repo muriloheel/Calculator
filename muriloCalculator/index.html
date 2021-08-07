@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murilo's Calculator</title>
+    <script src="https://kit.fontawesome.com/1bb2033eb8.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="d-flex justify-content-center">
+        <div class="input-output">
+            <input type="text" id=input-box readonly>
+            <input type="text" id=output-box readonly>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center align-itens-center">
+        <div class="meta-container">
+            <div class="buttons-container">
+                <button id="number0" data-id=0 class=numbers>0</button>
+                <button id="number1" data-id=1 class=numbers>1</button>
+                <button id="number2" data-id=2 class=numbers>2</button>
+                <button id="plus" data-operator = + class=operators>+</button>
+                <button id="number3" data-id=3 class=numbers>3</button>
+                <button id="number4" data-id=4 class=numbers>4</button>
+                <button id="number5" data-id=5 class=numbers>5</button>
+                <button id="minus" data-operator = - class=operators>-</button>
+                <button id="number6" data-id=6 class=numbers>6</button>
+                <button id="number7" data-id=7 class=numbers>7</button>
+                <button id="number8" data-id=8 class=numbers>8</button>
+                <button id="times" data-operator = * class=operators>*</button>
+                <button id="number9" data-id=9 class=numbers>9</button>
+                <button id="point" class=numbers>.</button>
+                <button id="backspace" class=numbers><i class="fas fa-backspace"></i></button>
+                <button id="divided" data-operator = / class=operators>/</button>
+            </div>
+            <div class="delete-submit">
+                <button id="c">C</button>
+                <button id="equals">=</button>
+            </div>
+ 
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
